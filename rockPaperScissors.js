@@ -1,6 +1,4 @@
 const rps = (p1, p2) => {
-  console.log(p1);
-  console.log(p2);
   if (
     (p1 == "scissors" && p2 == "paper") ||
     (p1 == "rock" && p2 == "scissors") ||
@@ -16,3 +14,8 @@ const rps = (p1, p2) => {
   }
   return "Draw!";
 };
+console.log(rps("scissors", "paper"));
+console.log(rps("scissors", "rock"));
+console.log(rps("rock", "paper"));
+console.log(rps("paper", "rock"));
+console.log(rps("scissors", "scissors"));
