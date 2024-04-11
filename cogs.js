@@ -5,3 +5,6 @@ function cogRpm(cogs, n) {
   for (var i = n; i < cogs.length - 1; ++i) d *= -cogs[i] / cogs[i + 1];
   return [s, d];
 }
+console.log(cogRpm([100, 50, 25], 0));
+console.log(cogRpm([100, 50, 25], 1));
+console.log(cogRpm([100, 50, 25], 2));
