@@ -9,3 +9,6 @@ function flickSwitch(arr) {
   }
   return result;
 }
+console.log(flickSwitch(["codewars", "flick", "code", "wars"])); // output: [true, false, false, false]
+console.log(flickSwitch(["flick", "chocolate", "adventure", "sunshine"])); // output: [false, false, false, false]
+console.log(flickSwitch(["bicycle", "jarmony", "flick", "sheep", "flick"])); // output: [true, true, false, false, true]
