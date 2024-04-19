@@ -9,3 +9,6 @@ function well(x) {
     return "I smell a series!";
   }
 }
+console.log(well(["good", "bad", "good", "good"])); // outpu 'Publish!'
+console.log(well(["bad", "bad", "bad"])); // output 'Fail!'
+console.log(well(["good", "bad", "bad", "good", "bad"])); // output 'I smell a series!'
