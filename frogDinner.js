@@ -17,3 +17,4 @@ function frogContest(n) {
 
   return `Chris ate ${chrisFlies} flies, Tom ate ${tomFlies} flies and Cat ate ${catFlies} flies`;
 }
+console.log(frogContest(5));
