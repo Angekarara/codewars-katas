@@ -14,3 +14,4 @@ function dnaStrand(dna) {
   });
   return results.join("");
 }
+console.log(dnaStrand("ATGC")); // Output: "TACG"
