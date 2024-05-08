@@ -14,3 +14,5 @@ function fraction(a, b) {
   const sum = num1 + num2;
   return sum;
 }
+console.log(fraction(90, 120));
+console.log(fraction(72, 46));
