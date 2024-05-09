@@ -11,3 +11,4 @@ function getSum(a, b) {
   }
   return a;
 }
+console.log(getSum(0, -1));
