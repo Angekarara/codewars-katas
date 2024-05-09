@@ -12,3 +12,4 @@ function getSum(a, b) {
   return a;
 }
 console.log(getSum(0, -1));
+console.log(getSum(50, 90));
